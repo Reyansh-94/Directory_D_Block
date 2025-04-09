@@ -1,0 +1,39 @@
+.info {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+#name {
+  /* text-align: center; */
+  color: #00f;
+  /* margin-top: 10px; */
+  }
+
+  #img {
+  height: 160px;
+  width: 130px;
+  background-image: url(photo.jpg);
+  background-size: cover;
+}
+
+hr {
+  text-decoration: underline;
+  border-bottom: 1px solid black;
+  margin-top: 15px;
+}
+
+b, td, li{
+  color: #00f;
+  font-weight: bold;
+}
+
+h3 {
+  background-color: rgb(235, 209, 213);
+  border-top: 2px solid black;
+}
+
+.intern  {
+  background-color: rgb(235, 209, 213);
+  font-size: large;
+  font-weight: bold;
+}
