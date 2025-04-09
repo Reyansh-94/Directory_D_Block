@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="Delta.css"/>
+  <title>Generate a Random Password</title>
+</head> 
+<body>
+  <div class="container">
+      <h2>Generate a <br><span>Random password</span></h2>
+      <div class="display">      
+        <input type="text" id="password" placeholder="Password"/>
+        <i class="fa-regular fa-copy" id="icon" onclick="copyPassword()"></i>
+      </div>
+      <button onclick="randomFunction()"><i class="fa-duotone fa-solid fa-bolt"></i>Generate password</button>
+  </div>
+
+  <script src="Delta.js"></script>
+</body>
+</html>
